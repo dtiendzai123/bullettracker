@@ -1,4 +1,10 @@
 // ======= Vector3 Tối Ưu (Sửa & Bổ Sung) =======
+const GamePackages = {
+  GamePackage1: "com.dts.freefireth",
+  GamePackage2: "com.dts.freefiremax"
+};
+
+// ===
 class Vector3 {
   constructor(x = 0, y = 0, z = 0) {
     this.x = x;
